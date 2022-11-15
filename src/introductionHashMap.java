@@ -1,3 +1,11 @@
+//Theory
+/*
+*used in development especially data
+* why? -> makes functions Insert/Search/Delete less Time Complexity compared to other Data Structures
+ */
+
+
+
 import java.util.HashMap;
 
 public class introductionHashMap {
