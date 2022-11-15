@@ -20,24 +20,13 @@ public class introductionHashMap {
             arr[ch-'a']++;
         }*/
 
-        //another Arrays implementation
-      /*  int maxFreq=0;
-        char ans=' ';
-        for (int i = 0; i < 26; i++) {
-            if(maxFreq<arr[i]){
-                maxFreq=arr[i];
-                ans = (char) ('a'+ i);
-            }
-        }*/
+
 
         //hashMap syntax
         /*1.HashMap<Character/String/Node/Integer, Integer/...> hm=new HashMap<>();
           2.hm.put(key,value)
           3.hm.get(key)  ->outputs: value @key
           4.containsKey(key) ->outputs: True or False
-          5.hm.size()
-          6.hm.isEmpty() ->outputs: True or False
-
          */
         HashMap<Character, Integer> hm=new HashMap<>();
         for(int i=0;i<n;i++){
@@ -48,5 +37,38 @@ public class introductionHashMap {
                 hm.put(ch, 1);
             }
         }
+        //explanation for above code
+        /*if(check whether key is already present){
+             int old_value=hm.get(ch);
+             hm.put(ch, old_value+1);
+             }else{
+             hm.put(ch, 1);
+             }
+             */
+/*
+*
+*
+*
+*
+*/
+        //another Arrays implementation
+      /*  int maxFreq=0;
+        char ans=' ';
+        for (int i = 0; i < 26; i++) {
+            if(maxFreq<arr[i]){
+                maxFreq=arr[i];
+                ans = (char) ('a'+ i);
+            }
+        }*/
+        //above in hashMap
+        int maxFreq=0;
+        char ans=' ';
+        for(Character ch: hm.keySet()){//this will iterate over all the keys
+            if (maxFreq<hm.get(ch)){
+                maxFreq=hm.get(ch);
+                ans=ch;
+            }
+        }
+        System.out.println(ans+" "+maxFreq);
     }
 }
