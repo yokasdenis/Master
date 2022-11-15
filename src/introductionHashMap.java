@@ -25,8 +25,7 @@ public class introductionHashMap {
         /*1.HashMap<Character/String/Node/Integer, Integer/...> hm=new HashMap<>();
           2.hm.put(key,value)
           3.hm.get(key)  ->outputs: value @key
-          4.hm.size()
-          5.containsKey(key) ->outputs: True or False
+          4.containsKey(key) ->outputs: True or False
          */
         HashMap<Character, Integer> hm=new HashMap<>();
         for(int i=0;i<n;i++){
