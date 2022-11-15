@@ -27,6 +27,8 @@ public class introductionHashMap {
           3.hm.get(key)  ->outputs: value @key
           4.containsKey(key) ->outputs: True or False
           5.hm.size()
+          6.hm.isEmpty() ->outputs: True or False
+
          */
         HashMap<Character, Integer> hm=new HashMap<>();
         for(int i=0;i<n;i++){

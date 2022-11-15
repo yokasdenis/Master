@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9804751b-edf2-4a98-a3f0-c7ce8a680445" name="Changes" comment="creating repository remotely with intellij">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9804751b-edf2-4a98-a3f0-c7ce8a680445" name="Changes" comment="introduction to HashMap" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +31,9 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668550922095</updated>
       <workItem from="1668550928051" duration="1023000" />
-      <workItem from="1668551994006" duration="1158000" />
+      <workItem from="1668551994006" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="creating repository remotely with intellij">
       <created>1668551193855</created>
@@ -106,7 +105,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668553159897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating repository remotely with intellij">
+      <created>1668553193539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668553193539</updated>
+    </task>
+    <task id="LOCAL-00005" summary="introduction to HashMap">
+      <created>1668553334375</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668553334375</updated>
+    </task>
+    <task id="LOCAL-00006" summary="introduction to HashMap">
+      <created>1668553464909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668553464909</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating repository remotely with intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating repository remotely with intellij" />
+    <MESSAGE value="introduction to HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduction to HashMap" />
   </component>
 </project>
