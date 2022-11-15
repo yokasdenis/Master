@@ -6,7 +6,7 @@
  */
 
 
-
+//counting frequency of stuff, case 1 of characters in a string
 import java.util.HashMap;
 
 public class introductionHashMap {
