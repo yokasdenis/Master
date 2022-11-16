@@ -1,0 +1,29 @@
+Bucket Array
+Bucket array is a fixed size for example n=200.
+int [] arr=new int[200];
+
+when counting frequency of Strings or Nodes using HashMap
+we convert String to int (to be used as indices like 0,1,2,3 in array). i.e.
+"name" is converted to int using a)Hash Function which includes
+                                     i.)hash code
+                                     ii.)Compression function
+ HOW??
+ 1."name" is run through hash code(which is internally decided by hashMap)
+ and using sum of characters as an example(hashcode can be anything);
+
+   "name"---> 'n'+'a'+'m'+'e'(110+96+109+101)=416
+
+ 2. then this value goes through Compression Function
+ (we do a modulo to reduce the value to the array size range)
+ i.e.
+             416%n where n according to array above is 200
+             hence 416%201 = 14
+
+             index is now 14 for example
+
+             arr[14]++ in counting frequency
+
+ ----------HC-----CF
+ "name"--->416---->14
+
+
