@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9804751b-edf2-4a98-a3f0-c7ce8a680445" name="Changes" comment="introduction to HashMap">
-      <change afterPath="$PROJECT_DIR$/src/missingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/missingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/missingNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,7 @@
       <workItem from="1668951868591" duration="2462000" />
       <workItem from="1668978929750" duration="964000" />
       <workItem from="1669028507079" duration="602000" />
-      <workItem from="1669058987788" duration="7110000" />
+      <workItem from="1669058987788" duration="7414000" />
     </task>
     <task id="LOCAL-00001" summary="creating repository remotely with intellij">
       <created>1668551193855</created>
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669072243124</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="introduction to HashMap">
+      <created>1669074081451</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669074081451</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
