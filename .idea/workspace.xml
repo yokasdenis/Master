@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9804751b-edf2-4a98-a3f0-c7ce8a680445" name="Changes" comment="introduction to HashMap">
+      <change afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice questions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introductionHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionHashMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.19430241&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.Main">
@@ -101,7 +105,16 @@
       <option name="presentableId" value="Default" />
       <updated>1668550922095</updated>
       <workItem from="1668550928051" duration="1023000" />
-      <workItem from="1668551994006" duration="4712000" />
+      <workItem from="1668551994006" duration="7848000" />
+      <workItem from="1668893002639" duration="1676000" />
+      <workItem from="1668896762757" duration="93000" />
+      <workItem from="1668896914694" duration="6000" />
+      <workItem from="1668896926955" duration="1262000" />
+      <workItem from="1668939742788" duration="838000" />
+      <workItem from="1668951868591" duration="2462000" />
+      <workItem from="1668978929750" duration="964000" />
+      <workItem from="1669028507079" duration="602000" />
+      <workItem from="1669058987788" duration="2895000" />
     </task>
     <task id="LOCAL-00001" summary="creating repository remotely with intellij">
       <created>1668551193855</created>
@@ -187,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668555059388</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="introduction to HashMap">
+      <created>1668557801316</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668557801317</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

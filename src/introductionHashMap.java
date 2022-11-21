@@ -15,6 +15,7 @@ public class introductionHashMap {
         int n=str.length();
         //Arrays implementation
         int [] arr=new int[n];
+        //Part one
         /*for (int i = 0; i < n; i++) {
             char ch=str.charAt(i);
             arr[ch-'a']++;
@@ -23,11 +24,12 @@ public class introductionHashMap {
 
 
         //hashMap syntax
-        /*1.HashMap<Character/String/Node/Integer, Integer/...> hm=new HashMap<>();
+        /*1.HashMap<Character/String/Node/Integer(value), Integer(key)/...> hm=new HashMap<>();
           2.hm.put(key,value)
           3.hm.get(key)  ->outputs: value @key
           4.containsKey(key) ->outputs: True or False
          */
+        //Part One
         HashMap<Character, Integer> hm=new HashMap<>();
         for(int i=0;i<n;i++){
             char ch=str.charAt(i);
@@ -59,7 +61,8 @@ public class introductionHashMap {
                 ans = (char) ('a'+ i);
             }
         }*/
-        //above in hashMap
+        //above in hashMap or Part two
+
         int maxFreq=0;
         char ans=' ';
         for(Character ch: hm.keySet()){//this will iterate over all the keys
