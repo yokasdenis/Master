@@ -14,11 +14,11 @@ public class missingNumbers {
         for (int i = 0; i < m; i++) {
             brr[i] = scanner.nextInt();
         }
-        Solution.missingNumber(arr,brr);
+        Solution1.missingNumber(arr,brr);
     }
 }
 
-    class Solution {
+    class Solution1 {
         static void missingNumber(int[] arr,int[] brr) {
             int[] cnt1 = new int[10001];
             int[] cnt2 = new int[10001];
